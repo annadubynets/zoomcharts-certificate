@@ -52,31 +52,39 @@ body {
             min-height: 210mm;
             max-width: 297mm;
             max-height: 210mm;
-        }
-        .cert-body {
-            top: 70px;
-            .cert-title {
-                position: relative;
-                &::before {
-                    top: -30px;
+            h2 {
+                font-size: 34px;
+            }
+            h1 {
+                font-size: 55px;
+                margin-bottom: 24px;
+            }
+            .font-size-30px {
+                font-size: 22px!important;
+            }
+            .cert-description {
+                width: 39%!important;
+                p {
+                    font-size: 20px;
+                    line-height: 35px;
                 }
             }
-            .cert-decor-pink {
-                bottom: -35px;
+            .cert-body {
+                top: 70px;
+                .cert-title {
+                    position: relative;
+                    &::before {
+                        top: -30px;
+                    }
+                }
+                .cert-decor-pink {
+                    bottom: -35px;
+                }
             }
-        }
-        h2 {
-            font-size: 34px;
-        }
-        h1 {
-            font-size: 55px;
-            margin-bottom: 24px;
-        }
-        .cert-description {
-            width: 39%!important;
-            p {
-                font-size: 20px;
-                line-height: 35px;
+            .cert-footer {
+                p {
+                    font-size: 17px!important;
+                }
             }
         }
     }

@@ -116,31 +116,37 @@ body {
   max-width: 297mm;
   max-height: 210mm;
 }
-.cert-wrapper.cert-size-a4 .cert-body {
-  top: 70px;
-}
-.cert-wrapper.cert-size-a4 .cert-body .cert-title {
-  position: relative;
-}
-.cert-wrapper.cert-size-a4 .cert-body .cert-title::before {
-  top: -30px;
-}
-.cert-wrapper.cert-size-a4 .cert-body .cert-decor-pink {
-  bottom: -35px;
-}
-.cert-wrapper.cert-size-a4 h2 {
+.cert-wrapper.cert-size-a4 .cert-root h2 {
   font-size: 34px;
 }
-.cert-wrapper.cert-size-a4 h1 {
+.cert-wrapper.cert-size-a4 .cert-root h1 {
   font-size: 55px;
   margin-bottom: 24px;
 }
-.cert-wrapper.cert-size-a4 .cert-description {
+.cert-wrapper.cert-size-a4 .cert-root .font-size-30px {
+  font-size: 22px !important;
+}
+.cert-wrapper.cert-size-a4 .cert-root .cert-description {
   width: 39% !important;
 }
-.cert-wrapper.cert-size-a4 .cert-description p {
+.cert-wrapper.cert-size-a4 .cert-root .cert-description p {
   font-size: 20px;
   line-height: 35px;
+}
+.cert-wrapper.cert-size-a4 .cert-root .cert-body {
+  top: 70px;
+}
+.cert-wrapper.cert-size-a4 .cert-root .cert-body .cert-title {
+  position: relative;
+}
+.cert-wrapper.cert-size-a4 .cert-root .cert-body .cert-title::before {
+  top: -30px;
+}
+.cert-wrapper.cert-size-a4 .cert-root .cert-body .cert-decor-pink {
+  bottom: -35px;
+}
+.cert-wrapper.cert-size-a4 .cert-root .cert-footer p {
+  font-size: 17px !important;
 }
 
 .cert-root {
