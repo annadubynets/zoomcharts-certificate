@@ -1,0 +1,72 @@
+$black: #231F20;
+$darkgrey: #585858;
+$silver: #A4A4A4;
+$mediumpurple: #BF3EFE;
+$deepskyblue: #1B9EFF;
+$aliceblue: #F6F7FD;
+$saddlebrown: #A96500;
+$moccasin: #F9EBB8;
+$white: #FFFFFF;
+$whitesmoke: #FCFCFC;
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
+h1 {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 74px;
+    color: $darkgrey;
+    margin-bottom: 64px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 64px;
+    color: $darkgrey;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 36px;
+    color: $darkgrey;
+}
+
+.font-size-30px {
+    font-size: 30px;
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.text-primary {
+    color: $mediumpurple!important;
+}
+
+.text-dark {
+    color: $black!important;
+}
+
+.text-secondary {
+    color: $silver!important;
+}
+
+.border-end {
+    border-right: 1px solid #231F20!important;
+}
+
+.pe-4 {
+    padding-right: 24px;
+}
+
+.ps-4 {
+    padding-left: 24px;
+}
+
+.pb-2 {
+    padding-bottom: 8px;
+}
+
+.align-end {
+    align-self: end;
+}
