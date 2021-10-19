@@ -113,7 +113,7 @@ body {
   width: 297mm;
   height: calc(210mm - 38px);
   min-width: 297mm;
-  min-height: calc(210mm - 38px);
+  min-height: 210mm;
   max-width: 297mm;
   max-height: 210mm;
 }
