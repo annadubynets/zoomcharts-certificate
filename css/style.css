@@ -107,7 +107,7 @@ body {
 }
 .cert-wrapper.cert-size-a4 {
   min-width: 297mm;
-  min-height: calc(210mm - 16px);
+  min-height: calc(210mm - 38px);
 }
 .cert-wrapper.cert-size-a4 .cert-root {
   width: 297mm;
