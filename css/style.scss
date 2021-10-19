@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     width: calc(100vw - 76px);
-    height: calc(100vh - 92px);
+    height: calc(100vh - 76px);
     padding: 38px;
     position: relative;
     .cert-main-decor {
@@ -47,9 +47,9 @@ body {
         min-height: calc(210mm - 38px);
         .cert-root {
             width: 297mm;
-            height: calc(210mm - 16px);
+            height: calc(210mm - 32px);
             min-width: 297mm;
-            min-height: calc(210mm - 16px);
+            min-height: calc(210mm - 32px);
             max-width: 297mm;
             max-height: 210mm;
             h2 {
